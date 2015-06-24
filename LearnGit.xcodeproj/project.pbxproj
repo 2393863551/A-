@@ -12,6 +12,7 @@
 		34CB128C1B3A42F000BEB096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CB128B1B3A42F000BEB096 /* Images.xcassets */; };
 		34CB128F1B3A42F000BEB096 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34CB128D1B3A42F000BEB096 /* LaunchScreen.xib */; };
 		34CB129B1B3A42F000BEB096 /* LearnGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CB129A1B3A42F000BEB096 /* LearnGitTests.m */; };
+		34CB12A61B3A459300BEB096 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CB12A51B3A459300BEB096 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		34CB12941B3A42F000BEB096 /* LearnGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CB12991B3A42F000BEB096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CB129A1B3A42F000BEB096 /* LearnGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitTests.m; sourceTree = "<group>"; };
+		34CB12A41B3A459300BEB096 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		34CB12A51B3A459300BEB096 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				34CB12881B3A42F000BEB096 /* AppDelegate.h */,
 				34CB12891B3A42F000BEB096 /* AppDelegate.m */,
+				34CB12A41B3A459300BEB096 /* MyView.h */,
+				34CB12A51B3A459300BEB096 /* MyView.m */,
 				34CB128B1B3A42F000BEB096 /* Images.xcassets */,
 				34CB128D1B3A42F000BEB096 /* LaunchScreen.xib */,
 				34CB12841B3A42F000BEB096 /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				34CB128A1B3A42F000BEB096 /* AppDelegate.m in Sources */,
 				34CB12871B3A42F000BEB096 /* main.m in Sources */,
+				34CB12A61B3A459300BEB096 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
